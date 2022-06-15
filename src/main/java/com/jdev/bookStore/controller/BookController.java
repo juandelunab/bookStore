@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "api/v1/books")
+@RequestMapping(path = "/")
 public class BookController {
 
     @GetMapping
